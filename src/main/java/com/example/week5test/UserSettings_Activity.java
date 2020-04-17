@@ -102,7 +102,7 @@ public class UserSettings_Activity extends Activity implements OnItemSelectedLis
                     editor.putString(Username+Dark, "false");
 
                 editor.commit();
-                Toast.makeText(UserSettings_Activity.this,"Thanks",Toast.LENGTH_LONG).show();
+                Toast.makeText(UserSettings_Activity.this,"Saved",Toast.LENGTH_LONG).show();
                 //editor.clear().commit();
             }
         });

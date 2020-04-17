@@ -98,7 +98,7 @@ public class Sensor_Activity extends AppCompatActivity implements SensorEventLis
                 long curTime = System.currentTimeMillis();
                 if(curTime - lastUpdate > 5000){
                     Toast.makeText(this, "App Closing..", Toast.LENGTH_SHORT).show();
-                    //finishAffinity();
+                    finishAffinity();
                 }
 
             }

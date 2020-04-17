@@ -22,7 +22,7 @@
         <activity android:name=".Note_Activity"/>
         <activity android:name=".UserSettings_Activity"/>
         <activity android:name=".Userlist_Activity"/>
-        <activity android:name=".Email_Activity"/>
+        <activity android:name=".Email_Activity" />
     </application>
 
 </manifest>
